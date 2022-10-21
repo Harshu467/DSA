@@ -1,4 +1,10 @@
 //BUBBLE SORT
+// Bubble sort is majorly used where -
+// complexity does not matter
+// simple and shortcode is preferred
+// Best Case Complexity - It occurs when there is no sorting required, i.e. the array is already sorted. The best-case time complexity of bubble sort is O(n).
+// Average Case Complexity - It occurs when the array elements are in jumbled order that is not properly ascending and not properly descending. The average case time complexity of bubble sort is O(n2).
+// Worst Case Complexity - It occurs when the array elements are required to be sorted in reverse order. That means suppose you have to sort the array elements in ascending order, but its elements are in descending order. The worst-case time complexity of bubble sort is O(n2).
 // 1 22 0 12 65 23 88 -8 9
 // 1 0 12 22 23 65 -8 9 88
 // 0 1 12 22 23 -8 9 65 88
@@ -10,6 +16,7 @@
 #include <iostream>
 #include <vector>
 #include <bits/stdc++.h>
+using namespace std;
 int main()
 {
     ios_base::sync_with_stdio(false);
@@ -47,4 +54,5 @@ int main()
         cout<<V[i]<<" ";
     }
     cout<<endl;
+    return 0;
 }
