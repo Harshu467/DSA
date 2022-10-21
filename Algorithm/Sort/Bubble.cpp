@@ -19,8 +19,6 @@
 using namespace std;
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
     bool Swap=true;
     long N; // Here N is Size of  vector
     cout<<"Enter Amount of Numbers to be sorted : ";
